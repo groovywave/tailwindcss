@@ -534,6 +534,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD
 .ml-10 {
   margin-left: 2.5rem;
 }
@@ -550,6 +551,67 @@ video {
 .bg-google-googleGreen {
   --tw-bg-opacity: 1;
   background-color: rgb(52 168 83 / var(--tw-bg-opacity));
+=======
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.space-x-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+>>>>>>> afb9b44 (feat:add nav menu)
 }
 
 .bg-body {
@@ -557,6 +619,7 @@ video {
   background-color: rgb(5 5 5 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .p-4 {
   padding: 1rem;
 }
@@ -569,6 +632,11 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+=======
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+>>>>>>> afb9b44 (feat:add nav menu)
 }
 
 .py-6 {
@@ -576,6 +644,7 @@ video {
   padding-bottom: 1.5rem;
 }
 
+<<<<<<< HEAD
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -584,6 +653,8 @@ video {
   text-align: center;
 }
 
+=======
+>>>>>>> afb9b44 (feat:add nav menu)
 .font-poppins {
   font-family: Poppins, sans-serif;
 }
@@ -593,15 +664,19 @@ video {
   line-height: 2.25rem;
 }
 
+<<<<<<< HEAD
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 
+=======
+>>>>>>> afb9b44 (feat:add nav menu)
 .font-bold {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -622,25 +697,49 @@ video {
   color: rgb(252 165 165 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> afb9b44 (feat:add nav menu)
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .underline {
   text-decoration-line: underline;
 }
 
 .easy-button{
+=======
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.easy-button {
+>>>>>>> afb9b44 (feat:add nav menu)
   padding: 8px 16px;
   background-color: blue;
   color: white;
   border-radius: 4px;
+<<<<<<< HEAD
   font:bold;
   margin-left:40px;
 }
 
 .easy-button:hover{
+=======
+  font: bold;
+  margin-left: 40px;
+}
+
+.easy-button:hover {
+>>>>>>> afb9b44 (feat:add nav menu)
   background-color: #2d29a1;
 }
 
@@ -696,6 +795,7 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .hover\:bg-blue-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
@@ -717,10 +817,22 @@ video {
   .md\:text-red-400 {
     --tw-text-opacity: 1;
     color: rgb(248 113 113 / var(--tw-text-opacity));
+=======
+.hover\:text-selected-text:hover {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+>>>>>>> afb9b44 (feat:add nav menu)
   }
 }
 
 @media (min-width: 1024px) {
+<<<<<<< HEAD
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -743,5 +855,10 @@ video {
   .\32xl\:text-blue-600 {
     --tw-text-opacity: 1;
     color: rgb(37 99 235 / var(--tw-text-opacity));
+=======
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+>>>>>>> afb9b44 (feat:add nav menu)
   }
 }
