@@ -7,6 +7,7 @@ module.exports = {
         body: "#050505",
         "selected-text": "#a3a3ff",
         theme: "#5c318c",
+        secondary: "39191a4",
         google: {
           googleBlue: "#4285f4",
           googleGreen: "#34a853",
