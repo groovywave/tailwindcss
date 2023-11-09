@@ -33,22 +33,22 @@
             >Home</a
           >
           <a
-            href="#home"
+            href="#portfolio"
             class="hover:text-selected-text transition-all duration-300"
             >Portfolio</a
           >
           <a
-            href="#home"
+            href="#skills"
             class="hover:text-selected-text transition-all duration-300"
-            >Customer</a
+            >skills</a
           >
           <a
-            href="#home"
+            href="#contact"
             class="hover:text-selected-text transition-all duration-300"
             ><button
               class="py-2 px-2 bg-theme rounded-lg hover:bg-purple-600 transition-all duration-300"
             >
-              Inquiry
+              Contact
             </button></a
           >
         </div>
@@ -83,6 +83,7 @@
         />
       </div>
     </div>
+
     <!-- portfolio section -->
     <div
       id=""
@@ -91,7 +92,70 @@
       <section class="w-full">
         <h2 class="secondary-title">myPortfolio</h2>
         <p class="section-paragraph">web apps</p>
-        <div class="grid"><img src="./images/portfolio1.jpg" alt="" /></div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+          <img
+            src="./images/portfolio1.jpg"
+            alt=""
+            class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/portfolio2.jpg"
+            alt=""
+            class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/portfolio3.jpg"
+            alt=""
+            class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/portfolio4.jpg"
+            alt=""
+            class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/portfolio5.jpg"
+            alt=""
+            class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/portfolio6.jpg"
+            alt=""
+            class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
+          />
+        </div>
+      </section>
+    </div>
+
+    <!-- skills section -->
+    <div
+      id=""
+      class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+    >
+      <section class="w-full">
+        <h2 class="secondary-title">mySkills</h2>
+        <p class="section-paragraph">I've used these languages for 3years</p>
+        <div class="my-16">
+          <div
+            class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex flex-wrap lg:justify-center justify-start space-x-32"
+          >
+            <!-- language's logos -->
+            <div>
+              <i class="fa-brands fa-square-js text-7xl text-yellow-300"></i>
+            </div>
+            <!-- skill's description -->
+            <div>
+              <h3 class="text-3xl font-semibold">Javascript</h3>
+              <div>
+                <div class="badge">dev frontend</div>
+                <div class="badge">make websites</div>
+              </div>
+              <p>
+                Javascript engineer. <br />I learned this language every day.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </body>
